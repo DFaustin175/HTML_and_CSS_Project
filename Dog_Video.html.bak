@@ -1,10 +1,10 @@
 <DOCTYPE html>
 <html lang="en">
+<a href="Assignment.html">Home</a>
+<p><a href="https://www.youtube.com/watch?v=ae_ICfItTIY&ab_channel=ErikaD"><h2>Dog with the moves</h2></a></p>
 	<nav>
 	<a href="Assignment.html">Home</a> <b>|</b>
 	<a href="Dog.html">Dog Picture</a> <b>|</b>
 	<a href="Dog_Video.html">Dog Video</a> <b>|</b>
 	</nav>
-<p><h3>Pretty cool dog yea?</h3></p>
-<img src="Smirking_Dog.jpg">
 </html>

@@ -9,9 +9,14 @@
 	<h2>GIRAAAAAFFFESSSS</h2>
 	<h3>AND WOULD YOU BELIEVE IT????</h3>
 	<h6>bridges</h6>
-	<a href="Dog.html">Click me to see cool dog</a>
-	<p><a href="https://i.pinimg.com/736x/c8/b6/30/c8b630f1664777fe711948f13f5409f8.jpg">Click to see an even cooler cat</a></p>
-	</p>
+	<nav>
+	<a href="Assignment.html">Home</a> <b>|</b>
+	<a href="Dog.html">Dog Picture</a> <b>|</b>
+	<a href="Dog_Video.html">Dog Video</a> <b>|</b>
+	</nav>
+	<blockquote><p><a href="https://i.pinimg.com/736x/c8/b6/30/c8b630f1664777fe711948f13f5409f8.jpg">
+		Click to see an even cooler cat</a></p>
+	</p></blockquote>
 	<footer>
 	<main>
 	<img>
