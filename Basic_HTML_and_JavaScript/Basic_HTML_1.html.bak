@@ -1,4 +1,23 @@
 <DOCTYPE html>
 <html lang="en">
-
+<meta>
+<script src="Basic_JavaScript_1.js"></script>
+</meta>
+<body>
+	<p>
+		<font color="orange" face="Calibri" size="4">
+			<i>Orange is the worst color.</i>
+		</font>
+	</p>
+	<p>
+		<font color="#8A0094" face="Impact" size="7">
+			<b>Purple is the best color.</b>
+		</font>
+	</p>
+	<p>
+		<font color="Teal" face="Arial" size="5">
+			<u>And this color exist I guess.</u>
+		</font>
+	</p>
+	<img sc="Smirking_Dog.jpg" alt="Dog chilling">
 </html>
