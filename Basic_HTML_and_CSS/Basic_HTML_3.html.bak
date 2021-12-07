@@ -4,8 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
 	</meta>
 <body>
-		<div style ="color: red">
-			<h2>The red heading</h2>
+		<div style ="color: purple">
+			<h2>The purple heading</h2>
 		</div>
 		<p>Now im over here!</p>
 </body>

@@ -1,0 +1,5 @@
+p {
+	color: snow;
+	background: black
+	text-align: center;
+}
