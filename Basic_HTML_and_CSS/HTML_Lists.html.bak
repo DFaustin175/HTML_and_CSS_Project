@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta>
+<link rel="stylesheet" type="text/css" href="CSS_List.css">
+</meta>
+	<body>
+	<ul>
+	<li>Burger</li>
+	<li>Fries</li>
+	<li>Soda</li>
+	<li>MilkShake</li>
+	</ul>
+	<ol>
+	<li>Frosted Flakes</li>
+	<li>Cinnamon toast crunch</li>
+	<li>Lucky Charms</li>
+	<li>Cheerios</li>
+	</ol>
+	</body>
+</html>
