@@ -1,5 +1,28 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<body>
-		<h1>KarmaKrew Members<h1>
+		<h1>People Around the World</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Occupation</th>
+			</tr>
+			<tr>
+				<td>Tony Boofer</td>
+				<td>34</td>
+				<td>Software Developer</td>
+			</tr>
+			<tr>
+				<td>Ben Domo</td>
+				<td>23</td>
+				<td>Baker</td>
+			</tr>
+			<tr>
+				<td>Sam Jefferson</td>
+				<td>75000</td>
+				<td>Dimension Eater</td>
+			</tr>
+		</table>
+	</body>
 </html>
