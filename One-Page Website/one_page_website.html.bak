@@ -8,12 +8,13 @@
 		<!-- NAV -->
 		<div>
 			<div>
-				<ul>
+				<nav>
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#aboutus" id="link"><li>ABOUT US</li></a>
+					<a href="#themesongs" id="link"><li>FOUNDER THEMES</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#join" id="link"><li>JOIN THE KLUB</li></a>
-				</ul>
+				</nav>
 			</div>
 		</div>
 		<!-- End NAV -->
@@ -22,7 +23,7 @@
 		<div id="home">
 			<div>
 				<div>
-					<h1>The KarmaKlub</h1>
+					<h1><span style=color:purple> The KarmaKlub</span></h1>
 					<p>Welcome to the KarmaKlub</p>
 				</div>
 			</div>
@@ -33,18 +34,38 @@
 		<div id = "aboutus">
 			<div>
 				<div>
-					<h2>About Us</h2>
-					<p>We are the KarmaKlub!</p>
+					<h2>About Us!</h2>
 				</div>
 			</div>
 		</div>
 		
 		<!-- END ABOUT US -->
 		
+				<!-- THEME SONGS -->
+		<section>
+			<div id="themesongs">
+				<h1>Founder Themes</h1>
+				<div>
+					
+					<!-- Video-Container 1 -->
+					<div>
+						<div>
+						<iframe width="500" height="300" 
+						src="https://www.youtube.com/embed/zaCjr6MyOU0" 
+						title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<div>
+								<p>KarmaKlub Theme!</p>
+							</div>
+						</div>
+					</div>
+					<!-- END Video-Container 1 -->
+		<!-- END THEME SONGS -->
+		
 		<!-- GALLERY -->
 		<section>
 			<div id="gallery">
 				<h1>Gallery</h1>
+				<p>Check how hot we are!</p>
 				<div>
 					
 					<!-- Photo-Container 1 -->
@@ -191,7 +212,7 @@
 		
 		<!-- FOOTER -->
 		<div>
-			This is the foot of the page
+			All rights reserved. Don't mess with us Shreyas can be feral when tempted.
 		</div>
 		<!-- END FOOTER -->
 		
