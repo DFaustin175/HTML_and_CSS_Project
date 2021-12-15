@@ -3,50 +3,38 @@
 	<head>
 		<meta charset="utf-8">
 		<title>The KarmaKlub!</title>
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
 	</head>
 	<body>
 		<!-- NAV -->
-		<div>
-			<div>
-				<nav>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
-					<a href="#aboutus" id="link"><li>ABOUT US</li></a>
 					<a href="#themesong" id="link"><li>KLUB THEME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#join" id="link"><li>JOIN THE KLUB</li></a>
-				</nav>
+				</ul>
 			</div>
 		</div>
 		<!-- End NAV -->
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<h1><span style=color:purple> The KarmaKlub</span></h1>
-					<p>Welcome to the KarmaKlub</p>
+			<div class="container">
+				<div class="text-center">
+					<h1><span class="head-main">The KarmaKlub</span></h1>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
-		
-		<!-- ABOUT US -->
-		<div id = "aboutus">
+
+		<!-- THEME SONGS -->
+		<section id="themesong">
 			<div>
-				<div>
-					<h2>About Us!</h2>
-				</div>
-			</div>
-		</div>
-		
-		<!-- END ABOUT US -->
-		
-				<!-- THEME SONGS -->
-		<section>
-			<div id="themesong">
 				<h1>KarmaKlub Theme</h1>
-				<div>
-					
+			</div>
 					<!-- Video-Container 1 -->
 					<div>
 						<div>
@@ -56,7 +44,9 @@
 						</iframe>
 						</div>
 					</div>
+		</section>
 					<!-- END Video-Container 1 -->
+
 		<!-- END THEME SONGS -->
 		
 		<!-- GALLERY -->
@@ -64,141 +54,143 @@
 			<div id="gallery">
 				<h1>Gallery</h1>
 				<p>Check how hot we are!</p>
-				<div>
+				<div class="flex-container">
 					
 					<!-- Photo-Container 1 -->
-					<div>
-						<div>
+					<div class="container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.png" width="400" height="600" alt="ryan and sergi">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Ryan and Sergi looking swag as hell</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 1 -->
-					
+
 					<!-- Photo-Container 2 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_2.png" width="400" height="600" alt="Dee and Faisal">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_2.png" width="400" height="600" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Dee and Faisal being incredibly sexy</p>
+								<p>Dee and Faisal looking amazing as always</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 2 -->
 					
 					<!-- Photo-Container 3 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_3.png" width="400" height="600" alt="Sergi">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_3.png" width="400" height="600" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Sergi being all cute</p>
+								<p>Sergi looking all cute</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 3 -->
-					
+
 					<!-- Photo-Container 4 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_4.png" width="400" height="600" alt="Ryan, Cyd, Faisal, and Dee">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_4.png" width="400" height="600" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Some of our members after a successful merger</p>  
+								<p>The KarmaKlub after a successful merger</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 4 -->
-					
+
 					<!-- Photo-Container 5 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_5.png" alt="Chris">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_5.png" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Chris sweet talking a future client</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 5 -->
-					
+
 					<!-- Photo-Container 6 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_6.png" alt="FrieghtFest 2021">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_6.png" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>The klubs first celebrity interview!</p>
+								<p>The Klubs first celebrity meet up</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 6 -->
-					
+
 					<!-- Photo-Container 7 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_7.png" alt="Halloween 2021">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_7.png" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
 								<p>Halloween Night!</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 7 -->
-					
+
 					<!-- Photo-Container 8 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_8.png" alt="Poconos 2021">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_8.png" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Family outting to six flags!</p>
+								<p>Family outing to Six Flags</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 8 -->
-					
+
 					<!-- Photo-Container 9 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_9.png" width="750" height="600" alt="Karma Pride">
-							<div>
+					<div class="container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_9.png" width="750" height="600" alt="ryan and sergi">
+							<div class="photo-overlay">
 								<h3>Click to Enlarge</h3>
-								<p>Klub members showing off their pride!</p>
+								<p>KarmaKlub members go to pride</p>
 							</div>
 						</div>
 					</div>
 					<!-- END Photo-Container 9 -->
+
 				</div>
 			</div>
 		</section>
 		<!-- END GALLERY -->
 		
 		<!-- JOIN THE KLUB -->
-		<section>
-			<div id="join">
-				<div>
-					<h1>JOIN THE KLUB</h1>
-					<div>
-						<h2><span>Join the KarmaKlub today!</span></h2>
-						<p>
-							Fill out the info below to join the Klub.
+		<section id="contact">
+			<div class="container">
+				<div class="heading padding">
+					<h1 class="heading-padding">JOIN THE KLUB!</h1>
+					<div class="signup">
+						<h2><span>Fill out the info below and join the Klub!</span>
+						</h2>
+						<p class ="signup-text">
+							Complete the form below!
 						</p>
-						<div>
+						<div class="form-signup">
 							<form action="" method="post">
-								Full Name: <input class ="join" type="text" value=""><br>
-								Phone Number: <input class="join" type="text" value=""><br>
-								Email: <input class="join" type="text" value=""><br>
-								Fav Ice cream flavor: <input class="join" type="text" value="">
+								<input class="info" type="text" value="" placeholder="Full Name">
+								<input class="info" type="text" value="" placeholder="Email Address">
+								<input class="info" type="text" value="" placeholder="Phone Number">
+								<input class="info" type="text" value="" placeholder="Favorite Song">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
-									<input type="submit" value="Submit!">
+								<div class="submit">
+									<input type="submit" value="Submit">
 								</div>
 							</form>
 						</div>
@@ -209,8 +201,8 @@
 		<!-- END JOIN THE KLUB -->
 		
 		<!-- FOOTER -->
-		<div>
-			All rights reserved. Don't mess with us Shreyas can be feral when tempted.
+		<div id=footer>
+			www.karmaklub.kat &nbsp; | &nbsp; &copy; All rights reserved. &nbsp; | &nbsp; Don't mess with us Shreyas can be feral when tempted.
 		</div>
 		<!-- END FOOTER -->
 		
